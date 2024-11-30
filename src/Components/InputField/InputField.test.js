@@ -10,7 +10,7 @@ describe("InputField Component", () => {
     setInputText: mockInputSetText,
     subTextLabel: "subText",
     subTextValue: 50,
-    isDisabled: false,
+    isDisabled: false
   };
 
   it("Should render the InputField component correctly", () => {

@@ -8,11 +8,15 @@ describe("ErrorMessage Component", () => {
 
   it("Should display the component correctly when the message passed as prop", () => {
     render(<ErrorMessage {...props} />);
-    expect(screen.getByText("Something went wrong, please try later.")).toBeInTheDocument();
+    expect(
+      screen.getByText("Something went wrong, please try later.")
+    ).toBeInTheDocument();
   });
 
   it("Should not display the component if message is not passed", () => {
     render(<ErrorMessage />);
-    expect(screen.queryByText("Something went wrong, please try later.")).not.toBeInTheDocument();
+    expect(
+      screen.queryByText("Something went wrong, please try later.")
+    ).not.toBeInTheDocument();
   });
 });
