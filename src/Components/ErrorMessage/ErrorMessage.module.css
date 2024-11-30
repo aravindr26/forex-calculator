@@ -1,0 +1,11 @@
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ff0000;
+  background: #fff3f3;
+  margin: 8px 0 16px 0;
+  width: 100%;
+}
